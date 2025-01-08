@@ -128,6 +128,5 @@
 
   a:hover {
     color: var(--hover-color);
-    text-decoration: underline;
   }
 </style>

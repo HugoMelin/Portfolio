@@ -12,7 +12,8 @@
 <template>
   <article class="card">
     <h4 class="card__title">{{ annee.name }}</h4>
-    <p class="card__info">{{ annee.title }} <span class="separation">|</span> {{ annee.date }}</p>
+    <p class="card__info">{{ annee.title }}</p>
+    <p>{{ annee.date }}</p>
     <ul>
       <li class="card__comment" v-for="(comment, index) in annee.comment" v-if="comment !== ''" :key="index">{{ comment }}</li>
     </ul>
@@ -28,6 +29,7 @@
     border-radius: var(--border-radius);
     margin: 16px 0;
   }
+
   .separation {
     margin: 0 8px;
   }

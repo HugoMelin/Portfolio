@@ -55,7 +55,7 @@
 
   a {
     border-radius: 4px;
-    padding: 4px;
+    padding: 0.5rem 1rem;
     background-color: var(--background-secondary);
     border: 1px solid var(--border-color);
     width: fit-content;
@@ -63,7 +63,6 @@
 
   a:hover {
     color: var(--hover-color);
-    text-decoration: underline;
     background-color: var(--text-color);
     transition: background-color 0.3s;
     transition: color 0.3s;
