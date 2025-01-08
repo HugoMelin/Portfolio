@@ -1,0 +1,19 @@
+{
+  "socialMedia": [
+    {
+      "name": "LinkedIn",
+      "url": "https://www.linkedin.com/in/hugo-melin-49b90127a/",
+      "icon": "linkedin.ico"
+    },
+    {
+      "name": "GitHub",
+      "url": "https://github.com/HugoMelin",
+      "icon": "gitHub.png"
+    },
+    {
+      "name": "Instagram",
+      "url": "https://www.instagram.com/melinhugotheonlyone/",
+      "icon": "instagram.png"
+    }
+  ]
+}

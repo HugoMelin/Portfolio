@@ -1,0 +1,31 @@
+{
+    "annees": [
+      {
+        "name": "Université de La Rochelle / France",
+        "date": "Sep 2024 - Présent",
+        "title": "Licence Professionnelle métier de l'internet application web",
+        "comment": [
+            "Web design (responsive)",
+            "Wordpress (CMS) et PHP",
+            "Technologies Web (HTML - CSS et frameworks)",
+            "UX Design",
+            "RESTful API (Symfony, Express et Django)"
+        ]
+      },
+      {
+        "name": "Centre Européen de formation / France",
+        "date": "Fév 2024 - Août 2024",
+        "title": "Titre Professionnel niveau 5 - Développeur web et Web mobile",
+        "comment": ""
+      },
+      {
+        "name": "Excelia Group / France",
+        "date": "Fév 2020 - Fév 2024",
+        "title": "Bachelor Business en Commerce et Management Opérationnel",
+        "comment": [
+            "Réalisation d'un mémoire professionnel sur la gestion des stocks et le maintien de la compétitivité dans un contexte de crise.",
+            "Responsable événementiel au sein de l'association LR Beach Cup."
+        ]
+      }
+    ]
+  }

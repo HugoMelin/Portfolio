@@ -1,0 +1,40 @@
+{
+  "skills": [
+    {
+      "name": "Vue.js"
+    },
+    {
+      "name": "Angular"
+    },
+    {
+      "name": "ReactJS"
+    },
+    {
+      "name": "Python, Django"
+    },
+    {
+      "name": "PHP, Symfony"
+    },
+    {
+      "name": "SASS / SCSS"
+    },
+    {
+      "name": "RESTful API"
+    },
+    {
+      "name": "Responsive design"
+    },
+    {
+      "name": "SQL: MySQL"
+    },
+    {
+      "name": "Node.js, Express.js"
+    },
+    {
+      "name": "NOSQL: MongoDB"
+    },
+    {
+      "name": "ORM"
+    }
+  ]
+}

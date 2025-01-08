@@ -1,0 +1,92 @@
+{
+  "projects": [
+      {
+          "id": 1,
+          "tag": ["HTML", "CSS"],
+          "name": "CV - Hugo Melin",
+          "createDate": "09/03/2024",
+          "description": "Ce projet vise à convertir un CV numérique en format HTML et CSS en vue de son intégration dans une application web professionnelle. L'objectif est de créer un CV en ligne attrayant et accessible sur différents navigateurs et appareils, ce qui permettra de faciliter le partage des compétences et des expériences avec les recruteurs potentiels.",
+          "excerpt":"Ce projet vise à convertir un CV numérique en format HTML et CSS en vue de son intégration dans une application web professionnelle.",
+          "image": [
+              {
+                  "src":"CV_MelinHugo-1.jpg",
+                  "alt":"CV - Hugo Melin Image 1"
+              },
+              {
+                  "src":"CV_MelinHugo-2.jpg",
+                  "alt":"CV - Hugo Melin Image 2"
+              }
+          ],
+          "link": "https://github.com/HugoMelin/Projet_CEF_CV",
+          "slug": "cv-hugo-melin"
+      },
+      {
+          "id": 2,
+          "tag": ["JavaScript"],
+          "name": "Espace Commentaire",
+          "createDate": "28/03/2024",
+          "description": "L'objectif de ce projet était de créer la partie front-end de l'intégration d'un nouveau commentaire dans un espace commentaire. Cela implique la mise en place d'un formulaire de saisie, la gestion des erreurs, l'affichage des commentaires.",
+          "excerpt":"L'objectif de ce projet était de créer la partie front-end de l'intégration d'un nouveau commentaire dans un espace commentaire.",
+          "image": [
+              {
+              "src":"EspaceCommentaire-1.jpg",
+              "alt":"Espace Commentaire"
+              }
+          ],
+          "link": "https://github.com/HugoMelin/Projet_CEF_EspaceCommentaire",
+          "slug": "espace-commentaire"
+      },
+      {
+          "id": 3,
+          "tag": ["HTML","CSS"],
+          "name": "Portfolio RobbieLens",
+          "createDate": "07/02/2024",
+          "description": "Création d'un portfolio en HTML et CSS pour une photographe fictive. Ce projet consiste à créer un portfolio en HTML et CSS pour une photographe fictive. Le but de ce portfolio est de mettre en valeur son travail et de l'aider à atteindre ses objectifs professionnels.",
+          "excerpt":"Création d'un portfolio en HTML et CSS pour une photographe fictive.",
+          "image": [
+              {
+                  "src":"Portfolio_RobbiesLens-1.jpg",
+                  "alt":"Portfolio Robbie Lens Home Page"
+              },
+              {
+                  "src":"Portfolio_RobbiesLens-2.jpg",
+                  "alt":"Portfolio Robbie Lens Page Portfolio "
+              }
+          ],
+          "link": "https://github.com/HugoMelin/Hugo-Melin/tree/main/RobbieLens",
+          "slug": "portfolio-robbie-lens"
+      },
+      {
+          "id": 4,
+          "tag": ["JavaScript"],
+          "name": "Type Game",
+          "createDate": "14/02/2024",
+          "description": "Dans le but d'apprendre le langague JavaScript, j'ai réalisé une sorte de petit jeu qui permet de tester si l'utilisateur renvoie la bonne chaine de caractère. L'application permet de choisir si on veut taper des mots ou des phrases complète. On retrouve également une fonctionnalité qui permet d'envoyer son score par mail.",
+          "excerpt":"Dans le but d'apprendre le langague JavaScript, j'ai réalisé une sorte de petit jeu qui permet de tester si l'utilisateur renvoie la bonne chaine de caractère.",
+          "image": [
+              {
+                  "src":"TypeGame-1.jpg",
+                  "alt":"Application Type game"
+              }
+          ],
+          "link": "https://github.com/HugoMelin/Hugo-Melin/tree/main/typeGame",
+          "slug": "type-game"
+      },
+      {
+          "id": 5,
+          "tag": ["Plannification"],
+          "name": "Cahier des charges 'La Socketterie'",
+          "createDate": "25/03/2024",
+          "description": "Création du cahier des charges pour la création du site internet de l'entreprise : 'La Socketterie'.",
+          "excerpt":"Création du cahier des charges pour la création du site internet de l'entreprise : 'La Socketterie'.",
+          "image": [
+              {
+                  "src":"LaSocketterie.png",
+                  "alt":"La Socketterie"
+              }
+          ],
+          "link": "https://github.com/HugoMelin/Projet_CEF_CahierDesCharges/blob/main/La%20Socketterie.pdf",
+          "slug": "cahier-des-charges-la-socketterie"
+      }
+  ]
+}

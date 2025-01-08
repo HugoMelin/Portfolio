@@ -1,0 +1,28 @@
+{
+  "experiences": [
+    {
+        "name": "Groupe Esprit Jardin",
+        "date": "Mars 2021 - Mai 2021",
+        "title": "Assistant chargé gestion de projet - Stage 3 mois",
+        "comment": "Missions : Gestion de l'implantation d'une nouvelle gamme de produit ; Réalisation d'une veille concurrentielle ; Élaboration d'un questionnaire satisfaction client ; Réception de commande ; Service clients."
+    },
+    {
+        "name": "Chez Auguste",
+        "date": "Avril 2019 - Oct 2022",
+        "title": "Responsable d’établissement de nuit - CDI étudiant",
+        "comment": "Missions : Gestion des équipes et des stocks ; Gestion des conflits interne et externe ; Service clients ; Évaluation des performances de l'établissement et amélioration des processus quand il avait nécessité."
+    },
+    {
+        "name": "Tekabois",
+        "date": "Avril 2022 - Août 2022",
+        "title": "Technico-commercial - Stage 5 mois",
+        "comment": "Missions : Réception de la clientèle ; Conseiller et identifier les besoins des clients ; Proposer des solution techniques appropriées ; Contribuer à la veille concurrentielle de l'entreprise ; Dynamiser les ventes sur une zone géographique définie ; Analyser de nouveaux besoins clients."
+    },
+    {
+        "name": "Alcazar Café",
+        "date": "Déc 2022 - à Août 2023",
+        "title": "Assistant de direction - Alternance",
+        "comment": "Missions : Gestion de l'établissement ; Communication réseaux sociaux, presse local etc.. ; Création d'identité lié au rachat d'un nouvel établissement ; Création d'événements en lien avec les actualités sportifs."
+    }
+  ]
+}
