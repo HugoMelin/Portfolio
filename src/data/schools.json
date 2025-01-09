@@ -4,25 +4,50 @@
         "name": "Université de La Rochelle / France",
         "date": "Sep 2024 - Présent",
         "title": "Licence Professionnelle métier de l'internet application web",
-        "comment": [
-            "Web design (responsive)",
-            "Wordpress (CMS) et PHP",
-            "Technologies Web (HTML - CSS et frameworks)",
-            "UX Design",
-            "RESTful API (Symfony, Express et Django)"
-        ]
+        "comment": [          
+            "Maîtrise des langages HTML, CSS et JavaScript.",
+            "Utilisation de frameworks front-end comme React et Vue.js.",
+            "Programmation en PHP.",
+            "Web design (responsive).",
+            "Création de maquettes et prototypes interactifs.",
+            "Amélioration de l'expérience utilisateur (UX) et de l'interface utilisateur (UI).",
+            "Utilisation de CMS comme WordPress.",
+            "Développement d'API RESTful avec des frameworks comme Symfony.",
+            "Connaissance des frameworks CSS comme Bootstrap.",
+            "Utilisation des méthodologies Agile et Scrum.",
+            "Gestion des versions avec Git et GitLab.",
+            "Collaboration avec des équipes multidisciplinaires.",
+            "Déploiement et gestion des applications web sur des serveurs.",
+            "Mise en place de mesures de sécurité pour protéger les applications web.",
+            "Optimisation des performances des sites web.",
+            "Utilisation des outils de monitoring et d'analyse de performance."
+          ]
       },
       {
         "name": "Centre Européen de formation / France",
         "date": "Fév 2024 - Août 2024",
         "title": "Titre Professionnel niveau 5 - Développeur web et Web mobile",
-        "comment": ""
+        "comment": [
+          "Maîtrise des langages HTML, CSS et JavaScript.",
+          "Utilisation de frameworks front-end comme Vue.js, React et Angular.",
+          "Programmation en Node.js, PHP et Python.",
+          "Création et gestion de bases de données (MySQL, MongoDB).",
+          "Développement d'API RESTful.",
+          "Gestion des versions avec Git et GitHub.",
+          "Utilisation d'outils de développement comme Visual Studio Code et JetBrains.",
+          "Déploiement et gestion des applications web en production.",
+          "Utilisation de Docker pour la conteneurisation des applications.",
+          "Gestion des authentifications et autorisations.",
+          "Protection contre les attaques courantes (XSS, CSRF, SQL Injection).",
+          "Optimisation des performances des sites web."
+        ]
       },
       {
         "name": "Excelia Group / France",
         "date": "Fév 2020 - Fév 2024",
-        "title": "Bachelor Business en Commerce et Management Opérationnel",
+        "title": "Bachelor Business en Commerce et Management Opérationnel - Niveau Bac+4",
         "comment": [
+            "Première année de Master Grande École en alternance chez l'Alcazar à La Rochelle.",            
             "Réalisation d'un mémoire professionnel sur la gestion des stocks et le maintien de la compétitivité dans un contexte de crise.",
             "Responsable événementiel au sein de l'association LR Beach Cup."
         ]
