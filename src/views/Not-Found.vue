@@ -7,7 +7,7 @@
 </script>
 
 <template>
-  <div class="not-found">
+  <main class="not-found">
     <div class="content">
       <h2 class="title-1">404</h2>
       <h2 class="title-2">Page Non Trouvée</h2>
@@ -16,7 +16,7 @@
         <button class="button">Retour à l'accueil</button>
       </router-link>
     </div>
-  </div>
+  </main>
 </template>
 
 <style scoped>
@@ -29,6 +29,7 @@
     align-items: center;
     justify-content: center;
     padding: 2rem;
+    margin: 2rem;
   }
 
   .content {

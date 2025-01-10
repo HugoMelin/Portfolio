@@ -1,12 +1,13 @@
 <script lang="ts" setup>
-  const { annee } = defineProps<{
-    annee: {
-      name: string;
-      title: string;
-      date: string;
-      comment: string[];
-    }
-  }>();
+const props = defineProps<{
+  annee: {
+    name: string;
+    title: string;
+    date: string;
+    comment: string[];
+  };
+}>();
+const { annee } = props;
 </script>
 
 <template>
@@ -21,25 +22,25 @@
 </template>
 
 <style scoped>
-  .card {
-    text-align: left;
-    padding: 16px;
-    background-color: var(--background-card);
-    border: 1px solid var(--border-color);
-    border-radius: var(--border-radius);
-    margin: 16px 0;
-  }
+.card {
+  text-align: left;
+  padding: 16px;
+  background-color: var(--background-card);
+  border: 1px solid var(--border-color);
+  border-radius: var(--border-radius);
+  margin: 16px 0;
+}
 
-  .separation {
-    margin: 0 8px;
-  }
+.separation {
+  margin: 0 8px;
+}
 
-  ul {
-    padding-left: 2rem;
-  }
+ul {
+  padding-left: 2rem;
+}
 
-  .card__comment {
-    list-style-type: disc;
-    margin: 8px 0;
-  }
+.card__comment {
+  list-style-type: disc;
+  margin: 8px 0;
+}
 </style>

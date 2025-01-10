@@ -57,6 +57,10 @@ a {
   color: var(--text-color);
 }
 
+main {
+  padding: 2rem 0;
+}
+
 @media (max-width: 1024px) {
   body {
     padding: 0 1rem;
