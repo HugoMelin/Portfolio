@@ -1,6 +1,36 @@
 {
   "skills": [
     {
+      "name": "Node.js, Express.js"
+    },
+    {
+      "name": "JavaScript"
+    },
+    {
+      "name": "RESTful API"
+    },
+    {
+      "name": "SQL: MySQL"
+    },
+    {
+      "name": "NOSQL: MongoDB"
+    },
+    {
+      "name": "Git et contrôle de version"
+    },
+    {
+      "name": "DevOps (Docker)"
+    },
+    {
+      "name": "HTML/CSS"
+    },
+    {
+      "name": "Responsive design"
+    },
+    {
+      "name": "SASS / SCSS"
+    },
+    {
       "name": "Vue.js"
     },
     {
@@ -16,25 +46,7 @@
       "name": "PHP, Symfony"
     },
     {
-      "name": "SASS / SCSS"
-    },
-    {
-      "name": "RESTful API"
-    },
-    {
-      "name": "Responsive design"
-    },
-    {
-      "name": "SQL: MySQL"
-    },
-    {
-      "name": "Node.js, Express.js"
-    },
-    {
-      "name": "NOSQL: MongoDB"
-    },
-    {
-      "name": "ORM"
+      "name": "SEO"
     }
   ]
 }
