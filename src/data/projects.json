@@ -1,92 +1,254 @@
 {
   "projects": [
-      {
-          "id": 1,
-          "tag": ["HTML", "CSS"],
-          "name": "CV - Hugo Melin",
-          "createDate": "09/03/2024",
-          "description": "Ce projet vise à convertir un CV numérique en format HTML et CSS en vue de son intégration dans une application web professionnelle. L'objectif est de créer un CV en ligne attrayant et accessible sur différents navigateurs et appareils, ce qui permettra de faciliter le partage des compétences et des expériences avec les recruteurs potentiels.",
-          "excerpt":"Ce projet vise à convertir un CV numérique en format HTML et CSS en vue de son intégration dans une application web professionnelle.",
-          "image": [
-              {
-                  "src":"CV_MelinHugo-1.jpg",
-                  "alt":"CV - Hugo Melin Image 1"
-              },
-              {
-                  "src":"CV_MelinHugo-2.jpg",
-                  "alt":"CV - Hugo Melin Image 2"
-              }
-          ],
-          "link": "https://github.com/HugoMelin/Projet_CEF_CV",
-          "slug": "cv-hugo-melin"
-      },
-      {
-          "id": 2,
-          "tag": ["JavaScript"],
-          "name": "Espace Commentaire",
-          "createDate": "28/03/2024",
-          "description": "L'objectif de ce projet était de créer la partie front-end de l'intégration d'un nouveau commentaire dans un espace commentaire. Cela implique la mise en place d'un formulaire de saisie, la gestion des erreurs, l'affichage des commentaires.",
-          "excerpt":"L'objectif de ce projet était de créer la partie front-end de l'intégration d'un nouveau commentaire dans un espace commentaire.",
-          "image": [
-              {
-              "src":"EspaceCommentaire-1.jpg",
-              "alt":"Espace Commentaire"
-              }
-          ],
-          "link": "https://github.com/HugoMelin/Projet_CEF_EspaceCommentaire",
-          "slug": "espace-commentaire"
-      },
-      {
-          "id": 3,
-          "tag": ["HTML","CSS"],
-          "name": "Portfolio RobbieLens",
-          "createDate": "07/02/2024",
-          "description": "Création d'un portfolio en HTML et CSS pour une photographe fictive. Ce projet consiste à créer un portfolio en HTML et CSS pour une photographe fictive. Le but de ce portfolio est de mettre en valeur son travail et de l'aider à atteindre ses objectifs professionnels.",
-          "excerpt":"Création d'un portfolio en HTML et CSS pour une photographe fictive.",
-          "image": [
-              {
-                  "src":"Portfolio_RobbiesLens-1.jpg",
-                  "alt":"Portfolio Robbie Lens Home Page"
-              },
-              {
-                  "src":"Portfolio_RobbiesLens-2.jpg",
-                  "alt":"Portfolio Robbie Lens Page Portfolio "
-              }
-          ],
-          "link": "https://github.com/HugoMelin/Hugo-Melin/tree/main/RobbieLens",
-          "slug": "portfolio-robbie-lens"
-      },
-      {
-          "id": 4,
-          "tag": ["JavaScript"],
-          "name": "Type Game",
-          "createDate": "14/02/2024",
-          "description": "Dans le but d'apprendre le langague JavaScript, j'ai réalisé une sorte de petit jeu qui permet de tester si l'utilisateur renvoie la bonne chaine de caractère. L'application permet de choisir si on veut taper des mots ou des phrases complète. On retrouve également une fonctionnalité qui permet d'envoyer son score par mail.",
-          "excerpt":"Dans le but d'apprendre le langague JavaScript, j'ai réalisé une sorte de petit jeu qui permet de tester si l'utilisateur renvoie la bonne chaine de caractère.",
-          "image": [
-              {
-                  "src":"TypeGame-1.jpg",
-                  "alt":"Application Type game"
-              }
-          ],
-          "link": "https://github.com/HugoMelin/Hugo-Melin/tree/main/typeGame",
-          "slug": "type-game"
-      },
-      {
-          "id": 5,
-          "tag": ["Plannification"],
-          "name": "Cahier des charges 'La Socketterie'",
-          "createDate": "25/03/2024",
-          "description": "Création du cahier des charges pour la création du site internet de l'entreprise : 'La Socketterie'.",
-          "excerpt":"Création du cahier des charges pour la création du site internet de l'entreprise : 'La Socketterie'.",
-          "image": [
-              {
-                  "src":"LaSocketterie.png",
-                  "alt":"La Socketterie"
-              }
-          ],
-          "link": "https://github.com/HugoMelin/Projet_CEF_CahierDesCharges/blob/main/La%20Socketterie.pdf",
-          "slug": "cahier-des-charges-la-socketterie"
-      }
+    {
+      "tag": ["React", "Wordpress", "Bootstrap", "SCSS", "PHP"],
+      "name": "Pertuis Digital",
+      "createDate": "09/10/2024",
+      "description": "Dans le cadre d'un projet tuteuré, nous avons créé notre micro agence web, où nous réalisons des sites e-commerce ou vitrine pour des clients réels. Cette expérience nous a permis de mettre en pratique nos compétences en développement web et de travailler sur des projets concrets sur des technologies comme ReactJs ou encore Wordpress.",
+      "excerpt": "Dans le cadre d'un projet tuteuré, nous avons créé notre micro agence web, où nous réalisons des sites e-commerce ou vitrine pour des clients réels.",
+      "image": [
+        {
+          "src": "pertuis-digital-1.png",
+          "alt": "Page d'accueil Pertuis Digital"
+        },
+        {
+          "src": "pertuis-digital-2.png",
+          "alt": "Page d'accueil Fashion Active Project"
+        },
+        {
+          "src": "pertuis-digital-3.png",
+          "alt": "Page d'accueil La Vonologie"
+        }
+      ],
+      "link": "https://agence-pertuis-digital.lpmiaw.univ-lr.fr/",
+      "slug": "pertuis-digital"
+    },
+    {
+      "tag": [
+        "Angular",
+        "NodeJs: Express",
+        "Typescript",
+        "Docker",
+        "Bootstrap",
+        "MariaDB",
+        "JWT",
+        "Stripe"
+      ],
+      "name": "Knowledge Learning",
+      "createDate": "18/09/2024",
+      "description": "Knowledge-Learning est une plateforme interactive conçue pour permettre aux utilisateurs de créer, partager et acquérir des connaissances dans divers domaines. L'application offre une interface pour la gestion de cours. Ce projet est une application full stack développée dans le cadre d'une formation au CEF (Centre Européen de Formation). L'application vise à faciliter l'apprentissage et le partage de connaissances.",
+      "excerpt": "Knowledge-Learning est une plateforme interactive permettant de créer, partager et acquérir des connaissances, développée dans le cadre d'une formation au CEF.",
+      "image": [
+        {
+          "src": "knowledge-learning-1.png",
+          "alt": "Page d'accueil Knowledge Learning"
+        },
+        {
+          "src": "knowledge-learning-2.png",
+          "alt": "Page avec tous les cours Knowledge Learning"
+        },
+        {
+          "src": "knowledge-learning-3.png",
+          "alt": "Page panier Knowledge Learning"
+        },
+        {
+          "src": "knowledge-learning-4.png",
+          "alt": "Page mes certifications Knowledge Learning"
+        },
+        {
+          "src": "knowledge-learning-5.png",
+          "alt": "Page admin Knowledge Learning"
+        }
+      ],
+      "link": "https://github.com/HugoMelin/Projet_CEF_Knowledge-Learning",
+      "slug": "knowledge-learning"
+    },
+    {
+      "tag": ["Angular", "Typescript", "SCSS", "Bootstrap", "MailHog"],
+      "name": "Trouve ton Artisan",
+      "createDate": "18/09/2024",
+      "description": "Trouve ton Artisan est un annuaire en ligne conçu pour aider les utilisateurs à trouver des artisans qualifiés dans divers domaines. Ce site s'intègre facilement dans un environnement digital existant, offrant une interface conviviale et intuitive pour la recherche et la mise en relation avec des professionnels. Développé dans le cadre d'une formation au CEF (Centre Européen de Formation) sous Angular, ce projet met en avant l'utilisation de technologies modernes pour créer une plateforme efficace et performante. Les utilisateurs peuvent rechercher des artisans par spécialité, consulter leurs profils détaillés, et les contacter directement via le site. Cette application vise à simplifier le processus de recherche d'artisans et à fournir une solution fiable et accessible pour tous les besoins en services artisanaux.",
+      "excerpt": "Trouve ton Artisan est un annuaire en ligne pour trouver des artisans qualifiés, développé sous Angular pour simplifier la recherche et la mise en relation.",
+      "image": [
+        {
+          "src": "trouve-ton-artisan-1.png",
+          "alt": "Page d'accueil Trouve ton Artisan"
+        },
+        {
+          "src": "trouve-ton-artisan-2.png",
+          "alt": "Page des artisans du bâtiment Trouve ton Artisan"
+        },
+        {
+          "src": "trouve-ton-artisan-3.png",
+          "alt": "Page avec une recherche Trouve ton Artisan"
+        },
+        {
+          "src": "trouve-ton-artisan-4.png",
+          "alt": "Page de contact d'un artisan Trouve ton Artisan"
+        }
+      ],
+      "link": "https://hugomelin.alwaysdata.net/",
+      "slug": "trouve-ton-artisan"
+    },
+    {
+      "tag": ["Wordpress", "PHP", "Bedrock", "Docker"],
+      "name": "Thème Wordpress personnalisé",
+      "createDate": "13/12/2024",
+      "description": "Dans le cadre d'un cours sur Wordpress, j'ai réalisé un thème personnalisé pour une salle de spectacle. Ce projet consistait à transformer des maquettes HTML en un thème fonctionnel et esthétique sous Wordpress. J'ai travaillé sur l'intégration des différentes sections du site, telles que la page d'accueil, les pages de spectacles, et les pages de contact, en veillant à respecter les maquettes fournies. Le thème inclut des fonctionnalités spécifiques pour la gestion des événements et la présentation des artistes. Ce projet m'a permis de renforcer mes compétences en développement Wordpress, en intégration HTML/CSS, et en personnalisation de thèmes pour répondre aux besoins spécifiques d'un client réel.",
+      "excerpt": "Thème Wordpress personnalisé pour une salle de spectacle, basé sur des maquettes HTML, avec gestion des événements et présentation des artistes.",
+      "image": [
+        {
+          "src": "theme-wp-1.png",
+          "alt": "Page d'accueil"
+        },
+        {
+          "src": "theme-wp-2.png",
+          "alt": "Page de blog"
+        }
+      ],
+      "link": "",
+      "slug": "theme-wordpress"
+    },
+    {
+      "tag": ["Figma", "UX/UI"],
+      "name": "Maquettage d'une application mobile",
+      "createDate": "13/12/2024",
+      "description": "Dans le cadre d'un cours en licence professionnelle, j'ai imaginé une application mobile de planification d'entraînement pour la course à pied. Ce projet m'a permis de concevoir des maquettes détaillées sur Figma, en mettant l'accent sur une interface utilisateur intuitive et fonctionnelle. L'application permet aux utilisateurs de créer des plans d'entraînement personnalisés, de suivre leurs progrès, et de recevoir des conseils adaptés à leur niveau et à leurs objectifs. J'ai travaillé sur l'intégration de fonctionnalités telles que la gestion des séances d'entraînement, le suivi des performances, et la visualisation des statistiques. Ce projet m'a permis de développer mes compétences en design d'interface utilisateur et en prototypage, tout en répondant aux besoins spécifiques des coureurs.",
+      "excerpt": "Application mobile de planification d'entraînement pour la course à pied, avec maquettes détaillées sur Figma et interface intuitive.",
+      "image": [
+        {
+          "src": "maquettes-appli-mobile-1.png",
+          "alt": "Vu d'ensemble des maquettes"
+        },
+        {
+          "src": "maquettes-appli-mobile-2.png",
+          "alt": "Vu couleurs et composants"
+        },
+        {
+          "src": "maquettes-appli-mobile-3.png",
+          "alt": "Vu pages connexion"
+        }
+      ],
+      "link": "",
+      "slug": "maquettes-application-mobile"
+    },
+    {
+      "tag": ["Symfony", "PHP", "Stripe", "Bootstap"],
+      "name": "Site e-commerce avec Symfony",
+      "createDate": "29/08/2024",
+      "description": "Le projet consistait à créer un site e-commerce dédié à la vente de sweat-shirts. Ce site permet aux utilisateurs de parcourir une collection de produits, d'ajouter des articles à leur panier, et de finaliser leurs achats en toute sécurité grâce à l'intégration de Stripe pour les paiements. La gestion des utilisateurs inclut la création de comptes, la connexion sécurisée, et la possibilité de suivre l'historique des commandes. Le site offre une interface conviviale et intuitive, facilitant la navigation et l'expérience d'achat. Ce projet m'a permis de développer mes compétences en développement web, en intégration de systèmes de paiement, et en gestion des utilisateurs et des commandes.",
+      "excerpt": "Site e-commerce de sweat-shirts avec gestion des utilisateurs, panier, achats sécurisés via Stripe, et suivi des commandes.",
+      "image": [
+        {
+          "src": "e-commercePhp-1.png",
+          "alt": "Page d'accueil"
+        },
+        {
+          "src": "e-commercePhp-2.png",
+          "alt": "Page boutique"
+        },
+        {
+          "src": "e-commercePhp-3.png",
+          "alt": "Page article"
+        },
+        {
+          "src": "e-commercePhp-4.png",
+          "alt": "Page panier"
+        },
+        {
+          "src": "e-commercePhp-5.png",
+          "alt": "Page connexion"
+        }
+      ],
+      "link": "https://github.com/HugoMelin/Projet_CEF_Creer-site-e_commerce",
+      "slug": "site-e-commerce-symfony"
+    },
+    {
+      "tag": ["Angular", "Typescript", "Bootstap"],
+      "name": "Au petit village",
+      "createDate": "29/08/2024",
+      "description": "Le projet consistait à développer la partie front-end d'un site e-commerce dédié à la vente de figurines. L'objectif était de créer une interface utilisateur attrayante et intuitive permettant aux clients de parcourir facilement les produits disponibles. Le site inclut des fonctionnalités de filtrage avancées pour aider les utilisateurs à trouver rapidement les figurines qu'ils recherchent, en fonction de critères tels que la catégorie, le prix, et la disponibilité. Ce projet m'a permis de renforcer mes compétences en développement front-end, en utilisant des technologies modernes pour offrir une expérience utilisateur fluide et agréable.",
+      "excerpt": "Front-end d'un site e-commerce de figurines avec filtrage avancé des produits.",
+      "image": [
+        {
+          "src": "AuPetitVillage-1.png",
+          "alt": "Page d'accueil"
+        },
+        {
+          "src": "AuPetitVillage-2.png",
+          "alt": "Page boutique"
+        },
+        {
+          "src": "AuPetitVillage-3.png",
+          "alt": "Page contact"
+        }
+      ],
+      "link": "https://github.com/HugoMelin/Projet_CEF_Au-petit-village_Angular",
+      "slug": "au-petit-village"
+    },
+    {
+      "tag": ["JavaScript"],
+      "name": "Type Game",
+      "createDate": "14/02/2024",
+      "description": "Dans le cadre de mon apprentissage du langage JavaScript, j'ai développé un jeu interactif permettant de tester la précision de saisie de l'utilisateur. L'application offre la possibilité de choisir entre taper des mots ou des phrases complètes, et inclut une fonctionnalité permettant d'envoyer le score par mail. Ce projet m'a permis de renforcer mes compétences en JavaScript, en manipulation du DOM, et en gestion des événements utilisateur, tout en créant une expérience ludique et éducative.",
+      "excerpt": "Dans le cadre de mon apprentissage du langage JavaScript, j'ai développé un jeu interactif permettant de tester la précision de saisie de l'utilisateur.",
+      "image": [
+        {
+          "src": "TypeGame-1.jpg",
+          "alt": "Application Type game"
+        }
+      ],
+      "link": "https://github.com/HugoMelin/Hugo-Melin/tree/main/typeGame",
+      "slug": "type-game"
+    },
+    {
+      "tag": ["JavaScript"],
+      "name": "Espace Commentaire",
+      "createDate": "28/03/2024",
+      "description": "L'objectif de ce projet était de créer la partie front-end de l'intégration d'un nouveau commentaire dans un espace commentaire. Cela implique la mise en place d'un formulaire de saisie, la gestion des erreurs, l'affichage des commentaires.",
+      "excerpt": "L'objectif de ce projet était de créer la partie front-end de l'intégration d'un nouveau commentaire dans un espace commentaire.",
+      "image": [
+        {
+          "src": "EspaceCommentaire-1.jpg",
+          "alt": "Espace Commentaire"
+        }
+      ],
+      "link": "https://github.com/HugoMelin/Projet_CEF_EspaceCommentaire",
+      "slug": "espace-commentaire"
+    },
+    {
+      "tag": ["HTML", "CSS"],
+      "name": "Portfolio RobbieLens",
+      "createDate": "07/02/2024",
+      "description": "Création d'un portfolio en HTML et CSS pour une photographe fictive. Ce projet consiste à créer un portfolio en HTML et CSS pour une photographe fictive. Le but de ce portfolio est de mettre en valeur son travail et de l'aider à atteindre ses objectifs professionnels.",
+      "excerpt": "Création d'un portfolio en HTML et CSS pour une photographe fictive.",
+      "image": [
+        {
+          "src": "Portfolio_RobbiesLens-1.jpg",
+          "alt": "Portfolio Robbie Lens Home Page"
+        },
+        {
+          "src": "Portfolio_RobbiesLens-2.jpg",
+          "alt": "Portfolio Robbie Lens Page Portfolio "
+        }
+      ],
+      "link": "",
+      "slug": "portfolio-robbie-lens"
+    },
+    {
+      "tag": ["Plannification"],
+      "name": "Cahier des charges 'La Socketterie'",
+      "createDate": "25/03/2024",
+      "description": "Rédaction du cahier des charges pour le développement du site internet de l'entreprise 'La Socketterie'. Ce document détaillait les spécifications fonctionnelles et techniques, les objectifs du projet, ainsi que les exigences en matière de design et d'expérience utilisateur.",
+      "excerpt": "Rédaction du cahier des charges pour le site internet de 'La Socketterie', incluant spécifications fonctionnelles, techniques et exigences de design.",
+      "image": [
+        {
+          "src": "LaSocketterie.png",
+          "alt": "La Socketterie"
+        }
+      ],
+      "link": "https://github.com/HugoMelin/Projet_CEF_CahierDesCharges/blob/main/La%20Socketterie.pdf",
+      "slug": "cahier-des-charges-la-socketterie"
+    }
   ]
 }

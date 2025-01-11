@@ -3,7 +3,6 @@
 
   const { project } = defineProps<{
     project: {
-      id: number;
       tag: string[];
       name: string;
       createDate: string;
