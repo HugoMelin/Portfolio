@@ -1,4 +1,6 @@
 <script lang="ts" setup>
+import { computed } from 'vue';
+
 const props = defineProps<{
   annee: {
     name: string;
@@ -8,6 +10,10 @@ const props = defineProps<{
   };
 }>();
 const { annee } = props;
+
+const filteredComments = computed(() => {
+  return annee.comment.filter(comment => comment !== '');
+});
 </script>
 
 <template>
@@ -16,7 +22,7 @@ const { annee } = props;
     <p class="card__info">{{ annee.title }}</p>
     <p>{{ annee.date }}</p>
     <ul>
-      <li class="card__comment" v-for="(comment, index) in annee.comment" v-if="comment !== ''" :key="index">{{ comment }}</li>
+      <li class="card__comment" v-for="(comment, index) in filteredComments" :key="index">{{ comment }}</li>
     </ul>
   </article>
 </template>
