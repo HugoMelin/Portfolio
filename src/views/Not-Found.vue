@@ -1,12 +1,14 @@
 <script setup lang="ts">
-  import { onMounted } from 'vue';
+import AppHeader from '@/components/app-header.vue'
+import { onMounted } from 'vue'
 
-  onMounted(() => {
-      document.title = 'Page Non Trouvée - Hugo Melin';
-    });
+onMounted(() => {
+  document.title = 'Page Non Trouvée - Hugo Melin'
+})
 </script>
 
 <template>
+  <AppHeader />
   <main class="not-found">
     <div class="content">
       <h2 class="title-1">404</h2>
@@ -20,54 +22,54 @@
 </template>
 
 <style scoped>
-  .not-found {
-    background: linear-gradient(to bottom, var(--background-card), var(--background-secondary));
-    color: var(--text-color);
-    border: 1px solid var(--border-color);
-    border-radius: var(--border-radius);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 2rem;
-    margin: 2rem;
-  }
+.not-found {
+  background: linear-gradient(to bottom, var(--background-card), var(--background-secondary));
+  color: var(--text-color);
+  border: 1px solid var(--border-color);
+  border-radius: var(--border-radius);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+  margin: 2rem;
+}
 
-  .content {
-    text-align: center;
-  }
+.content {
+  text-align: center;
+}
 
-  .title-1 {
-    font-size: 6rem;
-    font-weight: bold;
-    margin-bottom: 1rem;
-  }
+.title-1 {
+  font-size: 6rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
 
-  .title-2 {
-    font-size: 1.875rem;
-    font-weight: 600;
-    margin-bottom: 1.5rem;
-  }
+.title-2 {
+  font-size: 1.875rem;
+  font-weight: 600;
+  margin-bottom: 1.5rem;
+}
 
-  p {
-    font-size: 1.25rem;
-    color: var(--text-color);
-    margin-bottom: 2rem;
-  }
+p {
+  font-size: 1.25rem;
+  color: var(--text-color);
+  margin-bottom: 2rem;
+}
 
-  .button {
-    padding: 0.75rem 1.5rem;
-    font-size: 1.125rem;
-    background-color: var(--hover-color);
-    color: var(--text-color);
-    border: none;
-    border-radius: 0.375rem;
-    cursor: pointer;
-    transition: background-color 0.3s;
-    transition: color 0.3s;
-  }
+.button {
+  padding: 0.75rem 1.5rem;
+  font-size: 1.125rem;
+  background-color: var(--hover-color);
+  color: var(--text-color);
+  border: none;
+  border-radius: 0.375rem;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  transition: color 0.3s;
+}
 
-  .button:hover {
-    background-color: var(--text-color);
-    color: var(--hover-color);
-  }
+.button:hover {
+  background-color: var(--text-color);
+  color: var(--hover-color);
+}
 </style>

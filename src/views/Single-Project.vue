@@ -18,6 +18,10 @@ if (!project) {
 onMounted(() => {
   document.title = `${project?.name} - Hugo Melin` || 'Hugo Melin - Portfolio'
 })
+
+const getImageUrl = (name: string) => {
+  return new URL(`../assets/img/projets/${name}`, import.meta.url).href
+}
 </script>
 
 <template>
@@ -75,10 +79,10 @@ onMounted(() => {
         <a
           v-for="(image, key) in project?.image"
           :key="key"
-          :href="`/src/assets/img/projets/${image.src}`"
+          :href="getImageUrl(image.src)"
           target="_blank"
         >
-          <img :src="`/src/assets/img/projets/${image.src}`" :alt="image.alt" />
+          <img :src="getImageUrl(image.src)" :alt="image.alt" />
         </a>
       </section>
     </section>
