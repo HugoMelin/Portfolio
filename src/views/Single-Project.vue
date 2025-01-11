@@ -114,6 +114,7 @@ h2 {
 
 .used-tech__list {
   display: flex;
+  flex-wrap: wrap;
   gap: 1rem;
 }
 

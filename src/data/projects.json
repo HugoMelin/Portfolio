@@ -1,7 +1,7 @@
 {
   "projects": [
     {
-      "tag": ["React", "Wordpress", "Bootstrap", "SCSS", "PHP"],
+      "tag": ["React", "Wordpress", "Bootstrap", "SCSS", "PHP", "NodeJs"],
       "name": "Pertuis Digital",
       "createDate": "09/10/2024",
       "description": "Dans le cadre d'un projet tuteuré, nous avons créé notre micro agence web, où nous réalisons des sites e-commerce ou vitrine pour des clients réels. Cette expérience nous a permis de mettre en pratique nos compétences en développement web et de travailler sur des projets concrets sur des technologies comme ReactJs ou encore Wordpress.",
@@ -26,10 +26,13 @@
     {
       "tag": [
         "Angular",
-        "NodeJs: Express",
+        "NodeJs",
+        "Express",
         "Typescript",
         "Docker",
         "Bootstrap",
+        "HTML",
+        "CSS",
         "MariaDB",
         "JWT",
         "Stripe"
@@ -64,7 +67,7 @@
       "slug": "knowledge-learning"
     },
     {
-      "tag": ["Angular", "Typescript", "SCSS", "Bootstrap", "MailHog"],
+      "tag": ["Angular", "Typescript", "HTML", "SCSS", "Bootstrap", "MailHog", "NodeJs"],
       "name": "Trouve ton Artisan",
       "createDate": "18/09/2024",
       "description": "Trouve ton Artisan est un annuaire en ligne conçu pour aider les utilisateurs à trouver des artisans qualifiés dans divers domaines. Ce site s'intègre facilement dans un environnement digital existant, offrant une interface conviviale et intuitive pour la recherche et la mise en relation avec des professionnels. Développé dans le cadre d'une formation au CEF (Centre Européen de Formation) sous Angular, ce projet met en avant l'utilisation de technologies modernes pour créer une plateforme efficace et performante. Les utilisateurs peuvent rechercher des artisans par spécialité, consulter leurs profils détaillés, et les contacter directement via le site. Cette application vise à simplifier le processus de recherche d'artisans et à fournir une solution fiable et accessible pour tous les besoins en services artisanaux.",
@@ -133,7 +136,7 @@
       "slug": "maquettes-application-mobile"
     },
     {
-      "tag": ["Symfony", "PHP", "Stripe", "Bootstap"],
+      "tag": ["Symfony", "PHP", "Stripe", "Bootstap", "MariaDB", "Twig"],
       "name": "Site e-commerce avec Symfony",
       "createDate": "29/08/2024",
       "description": "Le projet consistait à créer un site e-commerce dédié à la vente de sweat-shirts. Ce site permet aux utilisateurs de parcourir une collection de produits, d'ajouter des articles à leur panier, et de finaliser leurs achats en toute sécurité grâce à l'intégration de Stripe pour les paiements. La gestion des utilisateurs inclut la création de comptes, la connexion sécurisée, et la possibilité de suivre l'historique des commandes. Le site offre une interface conviviale et intuitive, facilitant la navigation et l'expérience d'achat. Ce projet m'a permis de développer mes compétences en développement web, en intégration de systèmes de paiement, et en gestion des utilisateurs et des commandes.",
@@ -164,7 +167,7 @@
       "slug": "site-e-commerce-symfony"
     },
     {
-      "tag": ["Angular", "Typescript", "Bootstap"],
+      "tag": ["Angular", "Typescript", "HTML", "Bootstap"],
       "name": "Au petit village",
       "createDate": "29/08/2024",
       "description": "Le projet consistait à développer la partie front-end d'un site e-commerce dédié à la vente de figurines. L'objectif était de créer une interface utilisateur attrayante et intuitive permettant aux clients de parcourir facilement les produits disponibles. Le site inclut des fonctionnalités de filtrage avancées pour aider les utilisateurs à trouver rapidement les figurines qu'ils recherchent, en fonction de critères tels que la catégorie, le prix, et la disponibilité. Ce projet m'a permis de renforcer mes compétences en développement front-end, en utilisant des technologies modernes pour offrir une expérience utilisateur fluide et agréable.",
