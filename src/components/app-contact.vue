@@ -35,7 +35,7 @@ const data = ref({
   },
 })
 
-const onSubmit = (values) => {
+const onSubmit = (values : any) => {
   isSubmitting.value = true
   setTimeout(async () => {
     console.log(values)
@@ -83,7 +83,7 @@ const showToast = (message: string, type: 'success' | 'error') => {
   <section class="contact">
     <h3>Travaillons ensemble !</h3>
     <div class="form-container">
-      <Form @submit="onSubmit" :validation-schema="schema" v-slot="{ errors }" id="contact-form">
+      <Form :validation-schema="schema" @submit="onSubmit" v-slot="{ errors }" id="contact-form">
         <div class="form-fields">
           <div class="form-field">
             <label for="name">Nom</label>
