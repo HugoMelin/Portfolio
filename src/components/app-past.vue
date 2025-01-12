@@ -16,7 +16,7 @@
       <li @click="filter='experiences'" :class="[filter==='experiences' ? 'active' : '', 'filter__item']">Expériences</li>
     </ul>
 
-    <h3 class="past__title-3">{{ filter==='parcours'?'Mes écoles':'Mes expériences'}}</h3>
+    <h3 class="past__title-3">{{ filter==='parcours'?'Parcours scolaire':'Expériences professionnelles'}}</h3>
     <section v-if="filter==='parcours'" class="ecoles">
       <div class="timeline-line"></div>
       <PastCard v-for="(annee, index) in annees" :key="index" :annee="annee" :class="filter"/>
@@ -67,7 +67,7 @@
       align-content: space-between;
       position: relative;
     }
-    
+
     .timeline-line {
       position: absolute;
       left: 50%;
@@ -82,7 +82,7 @@
     .parcours, .experiences {
       width: 48%;
     }
-    
+
     .parcours:nth-child(2n), .experiences:nth-child(2n+1) {
       align-self: start;
     }

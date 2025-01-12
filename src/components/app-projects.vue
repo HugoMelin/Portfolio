@@ -20,7 +20,7 @@ const filteredProjects = computed(() => {
 
 <template>
   <section class="projects" id="projects">
-    <h3>Projets</h3>
+    <h3>Mes projets</h3>
     <div class="filter">
       <label for="tag-select">Filtrer par tag :</label>
       <select id="tag-select" v-model="selectedTag">

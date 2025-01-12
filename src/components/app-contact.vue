@@ -35,7 +35,7 @@ const data = ref({
   },
 })
 
-const onSubmit = (values : any) => {
+const onSubmit = (values: any) => {
   isSubmitting.value = true
   setTimeout(async () => {
     console.log(values)
@@ -82,6 +82,11 @@ const showToast = (message: string, type: 'success' | 'error') => {
 <template>
   <section class="contact">
     <h3>Travaillons ensemble !</h3>
+    <p class="contact__sous-titre">
+      Vous avez un projet en tête ou souhaitez collaborer avec moi ? N'hésitez pas à me contacter !
+      Je suis toujours à la recherche de nouvelles opportunités et de défis passionnants. Remplissez
+      le formulaire ci-dessous et je vous répondrai dans les plus brefs délais.
+    </p>
     <div class="form-container">
       <Form :validation-schema="schema" @submit="onSubmit" v-slot="{ errors }" id="contact-form">
         <div class="form-fields">
@@ -128,6 +133,10 @@ const showToast = (message: string, type: 'success' | 'error') => {
 
 h3 {
   text-align: center;
+}
+
+.contact__sous-titre {
+  padding-bottom: 1rem;
 }
 
 .form-container {
