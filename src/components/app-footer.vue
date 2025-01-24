@@ -26,7 +26,7 @@ const getImageUrl = (name: string) => {
       <div class="footer__borderRight"></div>
       <div class="download">
         <h3>Mon Curriculum Vitæ</h3>
-        <a href="/public/CV_Hugo_Melin_2025.pdf" class="download__button" download>Télécharger mon CV</a>
+        <a href="./CV_Hugo_Melin_2025.pdf" class="download__button" download>Télécharger mon CV</a>
       </div>
       <div class="footer__borderRight"></div>
       <div class="footer__social">
