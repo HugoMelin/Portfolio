@@ -24,6 +24,11 @@ const getImageUrl = (name: string) => {
         </address>
       </div>
       <div class="footer__borderRight"></div>
+      <div class="download">
+        <h3>Mon Curriculum Vitæ</h3>
+        <a href="/public/CV_Hugo_Melin_2025.pdf" class="download__button" download>Télécharger mon CV</a>
+      </div>
+      <div class="footer__borderRight"></div>
       <div class="footer__social">
         <h3>Me retrouver</h3>
         <a
@@ -80,6 +85,35 @@ time {
 
 .footer__social__icon:hover {
   opacity: 50%;
+}
+
+.download {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+
+.download h3 {
+  align-self: start;
+}
+
+.download__button {
+  padding: 0.75rem 1.5rem;
+  background-color: var(--text-color);
+  color: var(--background-color);
+  border: none;
+  border-radius: var(--border-radius);
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  transition: color 0.3s;
+  font-size: 0.8em;
+}
+
+.download__button:hover:not(:disabled) {
+  background-color: var(--hover-color);
+  color: var(--text-color);
 }
 
 @media screen and (max-width: 768px) {
