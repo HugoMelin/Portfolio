@@ -1,39 +1,47 @@
 # Portfolio2025
 
-This template should help get you started developing with Vue 3 in Vite.
+Ce projet est présente le code source de mon portfolio. Il a été réalisé avec Vue.js 3 en utilisant la Composition API.
 
-## Recommended IDE Setup
+## Présentation
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+Ce portfolio a pour but de présenter mes compétences, mes projets et mon parcours professionnel. Vous y trouverez une sélection de mes réalisations, ainsi que des informations sur mon expérience et mes compétences en développement web.
 
-## Type Support for `.vue` Imports in TS
+## Technologies utilisées
 
-TypeScript cannot handle type information for `.vue` imports by default, so we replace the `tsc` CLI with `vue-tsc` for type checking. In editors, we need [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) to make the TypeScript language service aware of `.vue` types.
+- Vue.js 3
+- Composition API
+- TypeScript
 
-## Customize configuration
+## Installation du projet
 
-See [Vite Configuration Reference](https://vite.dev/config/).
+Pour installer et lancer le projet en local, suivez les étapes ci-dessous :
 
-## Project Setup
+### Configuration du projet
 
 ```sh
 npm install
 ```
 
-### Compile and Hot-Reload for Development
+### Compilation et rechargement à chaud pour le développement
 
 ```sh
 npm run dev
 ```
 
-### Type-Check, Compile and Minify for Production
+### Vérification des types, compilation et minification pour la production
 
 ```sh
 npm run build
 ```
 
-### Lint with [ESLint](https://eslint.org/)
+### Lint avec [ESLint](https://eslint.org/)
 
 ```sh
 npm run lint
 ```
+
+## Retrouver mon Portfolio sur le lien suivant
+
+[Lien vers mon Porfolio](https://hmelin.lpmiaw.univ-lr.fr/portfolio/)
+
+Merci de votre visite et n'hésitez pas à me contacter pour toute collaboration ou question !
