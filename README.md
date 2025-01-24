@@ -1,6 +1,6 @@
 # Portfolio2025
 
-Ce projet est présente le code source de mon portfolio. Il a été réalisé avec Vue.js 3 en utilisant la Composition API.
+Ce projet présente le code source de mon portfolio. Il a été réalisé avec Vue.js 3 en utilisant la Composition API.
 
 ## Présentation
 
