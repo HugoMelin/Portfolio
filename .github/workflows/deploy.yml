@@ -6,7 +6,7 @@ on:
       - testing-ci-cd
 
 jobs:
-  test:
+  build:
     runs-on: ubuntu-latest
 
     steps:
@@ -21,11 +21,8 @@ jobs:
       - name: Install dependencies
         run: npm install
 
-      - name: Does this work
-        run: echo "Hello, world!"
+      - name: Build
+        run: npm run build
 
-      - name: display the current directory
-        run: pwd
-
-      - name: List files in the current directory
-        run: ls -la
+      - name: Check files
+        run: ls -la ./dist
