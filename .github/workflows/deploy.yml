@@ -23,3 +23,9 @@ jobs:
 
       - name: Does this work
         run: echo "Hello, world!"
+
+      - name: display the current directory
+        run: pwd
+
+      - name: List files in the current directory
+        run: ls -la
