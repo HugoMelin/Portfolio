@@ -47,8 +47,14 @@ jobs:
         with:
           node-version: '22'
 
+      - name: Download build artifacts
+        uses: actions/download-artifact@v2
+        with:
+          name: dist
+          path: ./dist
+
       - name: Deploy
         run: |
           echo "Deploying..."
-          ls -la ./dist
+          ls -la
           echo "Deployed!"
