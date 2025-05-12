@@ -2,6 +2,7 @@
 import { useRoute, useRouter } from 'vue-router'
 import { projects } from '@/data/projects.json'
 import { onMounted } from 'vue'
+import ImgGallery from '@/components/img-gallery.vue'
 
 const route = useRoute()
 const slug = route.params.slug
@@ -18,10 +19,6 @@ if (!project) {
 onMounted(() => {
   document.title = `${project?.name} - Hugo Melin` || 'Hugo Melin - Portfolio'
 })
-
-const getImageUrl = (name: string) => {
-  return new URL(`../assets/img/projets/${name}`, import.meta.url).href
-}
 </script>
 
 <template>
@@ -76,14 +73,15 @@ const getImageUrl = (name: string) => {
     <section class="project-img">
       <h3>Le projet en images</h3>
       <section class="project-img__img">
-        <a
+        <ImgGallery :allImages="project?.image" />
+        <!--<a
           v-for="(image, key) in project?.image"
           :key="key"
           :href="getImageUrl(image.src)"
           target="_blank"
         >
           <img :src="getImageUrl(image.src)" :alt="image.alt" />
-        </a>
+        </a>-->
       </section>
     </section>
 
@@ -135,12 +133,6 @@ h2 {
   padding: 1rem;
   border: 1px solid var(--border-color);
   border-radius: var(--border-radius);
-}
-
-.project-img__img {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-  gap: 1rem;
 }
 
 .btn {
