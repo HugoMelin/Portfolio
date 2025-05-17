@@ -1,4 +1,5 @@
 <script lang="ts" setup>
+import type { Ref } from 'vue';
 import { ref, onMounted, onUnmounted } from 'vue';
 
 type Image = {
@@ -13,7 +14,7 @@ const props = defineProps<{ allImages: Image[] | undefined }>();
 
 const allImages = props.allImages;
 const columns = ref(3);
-const selectedImage = ref(null);
+const selectedImage: Ref<string | null> = ref(null);
 const showInfo = ref(false);
 
 const handleResize = () => {
@@ -50,7 +51,11 @@ const closeModal = () => {
   document.body.style.overflow = "auto";
 };
 
-const handleKeyDown = (e) => {
+interface KeyboardEventWithKey extends KeyboardEvent {
+  key: string;
+}
+
+const handleKeyDown = (e: KeyboardEventWithKey): void => {
   if (e.key === "Escape") {
     closeModal();
   } else if (e.key === "ArrowRight") {
@@ -62,15 +67,15 @@ const handleKeyDown = (e) => {
   }
 };
 
-const navigateImage = (direction) => {
+const navigateImage = (direction: "next" | "prev"): void => {
   if (!allImages || !selectedImage.value) return;
 
-  const currentIndex = allImages.findIndex(
-    (img) => img.src === selectedImage.value
+  const currentIndex: number = allImages.findIndex(
+    (img: Image) => img.src === selectedImage.value
   );
   if (currentIndex === -1) return;
 
-  let newIndex;
+  let newIndex: number;
 
   if (direction === "next") {
     newIndex = (currentIndex + 1) % allImages.length;
