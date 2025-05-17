@@ -1,7 +1,57 @@
 {
   "projects": [
     {
-      "tag": ["React", "Wordpress", "Bootstrap", "SCSS", "PHP", "NodeJs"],
+      "tag": ["Wordpress", "SCSS", "PHP", "Figma", "Docker", "Bedrock", "HTML", "CSS", "Plannification", "UX/UI", "Git"],
+      "name": "Fashion Active Project",
+      "createDate": "09/10/2024",
+      "description": "Le deuxième projet de notre micro agence web, est un site e-commerce pour une marque de vêtements. Le site a été conçu pour présenter la marque et sa créatrice, ainsi que pour vendre ses produits. Nous avons utilisé WordPress pour la gestion de contenu. Nous avons maquetté le site sur Figma, puis développé un thème enfant de Storefront pour intégrer les maquettes. Le site inclut une prise de contact pour de la conception de produits sur mesure et une boutique en ligne pour la vente de vêtements. Ce projet nous a permis de mettre en pratique nos compétences en UX/UI design, en développement web et en intégration. Nous avons également appris à travailler en étroite collaboration avec le client pour répondre à ses besoins spécifiques.",
+      "excerpt": "Le deuxième projet de notre micro agence web, est un site e-commerce pour une marque de vêtements. Le site a été conçu pour présenter la marque et sa créatrice, ainsi que pour vendre ses produits.",
+      "image": [
+        {
+          "src": "fap-1.png",
+          "alt": "Page d'accueil Fashion Active Project"
+        },
+        {
+          "src": "fap-2.png",
+          "alt": "Page sur-mesure Fashion Active Project"
+        },
+        {
+          "src": "fap-3.png",
+          "alt": "Page d'un produit Fashion Active Project"
+        },
+        {
+          "src": "fap-4.png",
+          "alt": "Produit sur la page d'accueil Fashion Active Project"
+        }
+      ],
+      "link": "https://www.fashionactiveproject.com/",
+      "slug": "fashion-active-project"
+    },
+    {
+      "tag": ["Wordpress", "SCSS", "PHP", "Figma", "Docker", "Bedrock", "HTML", "CSS", "Plannification", "Git"],
+      "name": "La Vonologie",
+      "createDate": "09/10/2024",
+      "description": "Le premier projet de notre micro agence web, est un site vitrine pour une association de Métal. Le site a été conçu pour présenter l'association, ses activités, et ses événements. Nous avons utilisé WordPress pour la gestion de contenu, et avons intégré des éléments personnalisé pour reflété l'image de l'association dans un thème personnalisé basé sur des maquettes réalisées sur Figma. Le site inclut des sections pour les actualités, les événements à venir. Ce projet nous a permis de mettre en pratique nos compétences en développement web, en intégration et en gestion de projets. Nous avons également appris à travailler en équipe, à respecter des délais, et à communiquer efficacement avec le client pour répondre à ses besoins spécifiques.",
+      "excerpt": "Le premier projet de notre micro agence web, est un site vitrine pour une association de Métal. Le site a été conçu pour présenter l'association, ses activités, et ses événements.",
+      "image": [
+        {
+          "src": "pertuis-digital-3.png",
+          "alt": "Page d'accueil La Vonologie"
+        },
+        {
+          "src": "vonologie-1.png",
+          "alt": "Page du blog La Vonologie"
+        },
+        {
+          "src": "vonologie-2.png",
+          "alt": "Page des évènements La Vonologie"
+        }
+      ],
+      "link": "https://association-lavonologie.fr/",
+      "slug": "la-vonologie"
+    },
+    {
+      "tag": ["React", "Wordpress", "Bootstrap", "SCSS", "PHP", "NodeJs", "Plannification", "Git"],
       "name": "Pertuis Digital",
       "createDate": "09/10/2024",
       "description": "Dans le cadre d'un projet tuteuré, nous avons créé notre micro agence web, où nous réalisons des sites e-commerce ou vitrine pour des clients réels. Cette expérience nous a permis de mettre en pratique nos compétences en développement web et de travailler sur des projets concrets sur des technologies comme ReactJs ou encore Wordpress.",
@@ -9,21 +59,16 @@
       "image": [
         {
           "src": "pertuis-digital-1.png",
-          "alt": "Page d'accueil Pertuis Digital",
-          "height": 800,
-          "width": 600
+          "alt": "Page d'accueil Pertuis Digital"
+
         },
         {
           "src": "pertuis-digital-2.png",
-          "alt": "Page d'accueil Fashion Active Project",
-          "height": 600,
-          "width": 800
+          "alt": "Page d'accueil Fashion Active Project"
         },
         {
           "src": "pertuis-digital-3.png",
-          "alt": "Page d'accueil La Vonologie",
-          "height": 800,
-          "width": 600
+          "alt": "Page d'accueil La Vonologie"
         }
       ],
       "link": "https://agence-pertuis-digital.lpmiaw.univ-lr.fr/",
@@ -41,7 +86,8 @@
         "CSS",
         "MariaDB",
         "JWT",
-        "Stripe"
+        "Stripe",
+        "Git"
       ],
       "name": "Knowledge Learning",
       "createDate": "18/09/2024",
@@ -73,7 +119,7 @@
       "slug": "knowledge-learning"
     },
     {
-      "tag": ["Angular", "Typescript", "HTML", "SCSS", "Bootstrap", "MailHog", "NodeJs"],
+      "tag": ["Angular", "Typescript", "HTML", "SCSS", "Bootstrap", "MailHog", "NodeJs", "Git"],
       "name": "Trouve ton Artisan",
       "createDate": "18/09/2024",
       "description": "Trouve ton Artisan est un annuaire en ligne conçu pour aider les utilisateurs à trouver des artisans qualifiés dans divers domaines. Ce site s'intègre facilement dans un environnement digital existant, offrant une interface conviviale et intuitive pour la recherche et la mise en relation avec des professionnels. Développé dans le cadre d'une formation au CEF (Centre Européen de Formation) sous Angular, ce projet met en avant l'utilisation de technologies modernes pour créer une plateforme efficace et performante. Les utilisateurs peuvent rechercher des artisans par spécialité, consulter leurs profils détaillés, et les contacter directement via le site. Cette application vise à simplifier le processus de recherche d'artisans et à fournir une solution fiable et accessible pour tous les besoins en services artisanaux.",
@@ -142,7 +188,7 @@
       "slug": "maquettes-application-mobile"
     },
     {
-      "tag": ["Symfony", "PHP", "Stripe", "Bootstap", "MariaDB", "Twig"],
+      "tag": ["Symfony", "PHP", "Stripe", "Bootstrap", "MariaDB", "Twig", "Git"],
       "name": "Site e-commerce avec Symfony",
       "createDate": "29/08/2024",
       "description": "Le projet consistait à créer un site e-commerce dédié à la vente de sweat-shirts. Ce site permet aux utilisateurs de parcourir une collection de produits, d'ajouter des articles à leur panier, et de finaliser leurs achats en toute sécurité grâce à l'intégration de Stripe pour les paiements. La gestion des utilisateurs inclut la création de comptes, la connexion sécurisée, et la possibilité de suivre l'historique des commandes. Le site offre une interface conviviale et intuitive, facilitant la navigation et l'expérience d'achat. Ce projet m'a permis de développer mes compétences en développement web, en intégration de systèmes de paiement, et en gestion des utilisateurs et des commandes.",
@@ -173,7 +219,7 @@
       "slug": "site-e-commerce-symfony"
     },
     {
-      "tag": ["Angular", "Typescript", "HTML", "Bootstap"],
+      "tag": ["Angular", "Typescript", "HTML", "Bootstrap", "Git"],
       "name": "Au petit village",
       "createDate": "29/08/2024",
       "description": "Le projet consistait à développer la partie front-end d'un site e-commerce dédié à la vente de figurines. L'objectif était de créer une interface utilisateur attrayante et intuitive permettant aux clients de parcourir facilement les produits disponibles. Le site inclut des fonctionnalités de filtrage avancées pour aider les utilisateurs à trouver rapidement les figurines qu'ils recherchent, en fonction de critères tels que la catégorie, le prix, et la disponibilité. Ce projet m'a permis de renforcer mes compétences en développement front-end, en utilisant des technologies modernes pour offrir une expérience utilisateur fluide et agréable.",
