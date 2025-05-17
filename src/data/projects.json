@@ -9,15 +9,21 @@
       "image": [
         {
           "src": "pertuis-digital-1.png",
-          "alt": "Page d'accueil Pertuis Digital"
+          "alt": "Page d'accueil Pertuis Digital",
+          "height": 800,
+          "width": 600
         },
         {
           "src": "pertuis-digital-2.png",
-          "alt": "Page d'accueil Fashion Active Project"
+          "alt": "Page d'accueil Fashion Active Project",
+          "height": 600,
+          "width": 800
         },
         {
           "src": "pertuis-digital-3.png",
-          "alt": "Page d'accueil La Vonologie"
+          "alt": "Page d'accueil La Vonologie",
+          "height": 800,
+          "width": 600
         }
       ],
       "link": "https://agence-pertuis-digital.lpmiaw.univ-lr.fr/",
