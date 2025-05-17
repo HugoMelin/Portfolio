@@ -5,9 +5,6 @@ import { ref, onMounted, onUnmounted } from 'vue';
 type Image = {
   src: string;
   alt: string;
-  height: number;
-  width: number;
-  featured?: boolean;
 };
 
 const props = defineProps<{ allImages: Image[] | undefined }>();
@@ -91,7 +88,7 @@ const navigateImage = (direction: "next" | "prev"): void => {
   <div class="grid">
     <div v-for="columnIndex in columns" :key="columnIndex" class="flex-column">
       <div v-for="image in allImages?.filter((_, index) => index % columns === columnIndex - 1)" :key="image.src"
-        class="image-container" :class="{ 'featured': image.featured }" @click="openModal(image)">
+        class="image-container" @click="openModal(image)">
         <img :src="getImageUrl(image.src)" :alt="image.alt" class="image" loading="lazy" />
       </div>
     </div>
@@ -145,10 +142,6 @@ const navigateImage = (direction: "next" | "prev"): void => {
   border-radius: 0.5rem;
   cursor: pointer;
   transition: transform 0.2s ease-in-out;
-}
-
-.featured {
-  outline: 2px solid #3b82f6;
 }
 
 .image {
