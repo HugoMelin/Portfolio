@@ -74,14 +74,6 @@ onMounted(() => {
       <h3>Le projet en images</h3>
       <section class="project-img__img">
         <ImgGallery :allImages="project?.image" />
-        <!--<a
-          v-for="(image, key) in project?.image"
-          :key="key"
-          :href="getImageUrl(image.src)"
-          target="_blank"
-        >
-          <img :src="getImageUrl(image.src)" :alt="image.alt" />
-        </a>-->
       </section>
     </section>
 
