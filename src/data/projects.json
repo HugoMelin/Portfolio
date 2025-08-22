@@ -1,6 +1,29 @@
 {
   "projects": [
     {
+      "tag": ["Vue", "Strapi", "Figma", "Docker", "HTML", "TailwindCSS", "Plannification", "UX/UI", "Git"],
+      "name": "Toréfi",
+      "createDate": "06/07/2025",
+      "description": "Création du site internet de mon agence web en utilisant Vue 3 pour le frontend et Strapi pour le backend. Le projet met en avant une architecture moderne et performante, permettant une gestion de contenu flexible et une expérience utilisateur fluide. L’objectif était de concevoir une vitrine professionnelle et évolutive, tout en mettant en valeur l’expertise technique de l’agence.",
+      "excerpt": "Site vitrine d’agence web développé avec Vue 3 & Strapi, combinant performance, flexibilité et design moderne.",
+      "image": [
+        {
+          "src": "torefi-1.png",
+          "alt": "Page d'accueil de l'agence web Toréfi"
+        },
+        {
+          "src": "torefi-2.png",
+          "alt": "Section Pourquoi choisir Toréfi ?"
+        },
+        {
+          "src": "torefi-3.png",
+          "alt": "Page admin du back-end"
+        }
+      ],
+      "link": "https://torefi.fr/",
+      "slug": "torefi"
+    },
+    {
       "tag": ["Wordpress", "SCSS", "PHP", "Figma", "Docker", "Bedrock", "HTML", "CSS", "Plannification", "UX/UI", "Git"],
       "name": "Fashion Active Project",
       "createDate": "09/10/2024",
