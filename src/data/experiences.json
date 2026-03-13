@@ -1,6 +1,17 @@
 {
   "experiences": [
     {
+      "name": "Karbonalpha - Développeur Front-end",
+      "date": "Nov 2025 - Présent",
+      "title": "Front-end Developer - Freelance",
+      "comment": [
+        "Participation au développement front-end d’une plateforme SaaS FinTech destinée aux professionnels de la gestion patrimoniale.",
+        "Conception et intégration d’interfaces web modernes et performantes pour faciliter l’accès aux outils d’analyse financière.",
+        "Création et maintenance de composants UI réutilisables afin d’assurer la cohérence et l’évolutivité de l’interface.",
+        "Optimisation du design system et amélioration continue de l’expérience utilisateur pour garantir une navigation fluide et intuitive."
+      ]
+    },
+    {
       "name": "Toréfi - Développeur Full Stack Freelance",
       "date": "Sept 2024 - Présent",
       "title": "Freelance",

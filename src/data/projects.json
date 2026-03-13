@@ -1,6 +1,79 @@
 {
   "projects": [
     {
+      "tag": ["Nuxt", "Vue", "Prisma", "PostgreSQL", "PWA", "Typescript", "HTML", "CSS", "UX/UI", "Git", "Figma", "TailwindCSS", "Plannification"],
+      "name": "Project Jukebox",
+      "createDate": "28/01/2026",
+      "description": "Développement d’une application web PWA dédiée à la gestion et à l’organisation d’une collection de vinyles. L’objectif du projet est de permettre aux passionnés de musique de cataloguer facilement leurs disques, de suivre leur collection et de gérer une wishlist de vinyles à acquérir. L’application intègre un système de scan de code-barres permettant d’ajouter rapidement un vinyle à sa bibliothèque, en récupérant automatiquement les informations associées à l’album. Les utilisateurs peuvent consulter leur collection, ajouter des notes personnelles, organiser leurs disques et suivre les albums recherchés. Le projet a été développé avec Nuxt et Vue pour le front-end, Prisma et MySQL pour la gestion des données, ainsi que Docker pour l’environnement de développement et de déploiement. Une attention particulière a été portée à l’expérience utilisateur, à la performance et à l’ergonomie mobile afin de proposer une Progressive Web App fluide, pratique et accessible sur tous les appareils.",
+      "excerpt": "Application web PWA permettant de gérer une collection de vinyles, scanner des codes-barres et suivre une wishlist d’albums.",
+      "image": [
+        {
+          "src": "project-jukebox-1.png",
+          "alt": "Scan d’un code-barres pour ajouter un vinyle dans Project Jukebox"
+        },
+        {
+          "src": "project-jukebox-2.png",
+          "alt": "Gestion de la collection de vinyles dans l'application Project Jukebox"
+        },
+        {
+          "src": "project-jukebox-3.png",
+          "alt": "Fiche d'un vinyle dans l'application Project Jukebox"
+        }
+      ],
+      "link": "",
+      "slug": "project-jukebox"
+    },
+    {
+      "tag": ["Nuxt", "Vue", "Prisma", "MySQL", "Docker", "PWA", "JavaScript", "HTML", "CSS", "UX/UI", "Git", "Figma", "TailwindCSS", "Plannification"],
+      "name": "PetCare",
+      "createDate": "01/12/2025",
+      "description": "Développement d’une application web PWA dédiée à la gestion et au suivi de la santé des animaux de compagnie. Le projet a été pensé pour offrir aux propriétaires d’animaux une expérience utilisateur intuitive, complète et accessible sur tous les supports. L’application permet de centraliser les informations essentielles liées à la santé de l’animal, comme le suivi médical, les rendez-vous, les traitements ou encore les rappels importants. Réalisée avec Nuxt et Vue pour le front-end, Prisma et MySQL pour la gestion des données, ainsi que Docker pour l’environnement de développement et de déploiement, cette application a été conçue pour être performante, évolutive et maintenable. Une attention particulière a été portée à l’ergonomie, à la fiabilité des données et à l’expérience mobile afin de proposer une solution pratique et moderne sous forme de Progressive Web App.",
+      "excerpt": "Application web PWA de suivi de santé pour animaux de compagnie, développée avec Nuxt, Vue, Prisma et MySQL pour offrir une expérience intuitive et complète.",
+      "image": [
+        {
+          "src": "petcare-1.png",
+          "alt": "Page d'accueil de l'application PetCare"
+        },
+        {
+          "src": "petcare-2.png",
+          "alt": "Interface de suivi du poids d’un animal sur PetCare"
+        },
+        {
+          "src": "petcare-3.png",
+          "alt": "Interface de suivi des médicaments d'un animal sur PetCare"
+        }
+      ],
+      "link": "https://petcare.torefi.fr/",
+      "slug": "petcare"
+    },
+    {
+      "tag": ["Vue", "JavaScript", "Laravel", "PHP", "HTML", "CSS", "Design System", "UX/UI", "SaaS", "FinTech", "Git"],
+      "name": "Karbonalpha",
+      "createDate": "01/11/2025",
+      "description": "Développement front-end d’une plateforme SaaS FinTech pour Karbonalpha, dédiée aux professionnels de la gestion patrimoniale. Cette réalisation a consisté à concevoir et intégrer des interfaces web modernes et performantes afin de faciliter l’accès aux outils d’analyse financière et de gestion de données. Le projet a inclus la création de composants UI réutilisables, l’optimisation du design system et l’amélioration de l’expérience utilisateur (UX) pour garantir une navigation fluide et intuitive. Une attention particulière a été portée à la performance front-end, à la cohérence visuelle et à la maintenabilité du code, afin de proposer une interface fiable, évolutive et adaptée aux exigences d’une plateforme SaaS dans le secteur de la FinTech.",
+      "excerpt": "Développement front-end d’une plateforme SaaS FinTech avec création de composants UI et optimisation du design system pour améliorer l’expérience utilisateur.",
+      "image": [
+        {
+          "src": "karbonalpha-1.png",
+          "alt": "Page d'accueil du site Karbonalpha"
+        },
+        {
+          "src": "karbonalpha-2.jpg",
+          "alt": "Interface utilisateur de gestion patrimoniale sur Karbonalpha"
+        },
+        {
+          "src": "karbonalpha-3.jpg",
+          "alt": "Tableau de bord de la plateforme SaaS Karbonalpha"
+        },
+        {
+          "src": "karbonalpha-4.jpg",
+          "alt": "Export PDF d’un rapport d’analyse financière sur Karbonalpha"
+        }
+      ],
+      "link": "https://karbonalpha.com/",
+      "slug": "karbonalpha"
+    },
+    {
       "tag": ["Vue", "Strapi", "Figma", "Docker", "HTML", "TailwindCSS", "Plannification", "UX/UI", "Git"],
       "name": "Toréfi",
       "createDate": "06/07/2025",
