@@ -14,7 +14,7 @@ const tags = ref([...new Set(projects.flatMap((project) => project.tag))].sort()
 const selectedTag = ref(
   typeof route.query.tag === 'string' && tags.value.includes(route.query.tag) ? route.query.tag : '',
 )
-const perPage = ref(9)
+const perPage = ref(6)
 const initialPage = Number(route.query.page)
 const page = ref(Number.isInteger(initialPage) && initialPage > 0 ? initialPage : 1)
 const syncingFromRoute = ref(false)
