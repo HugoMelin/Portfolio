@@ -1,7 +1,7 @@
 {
   "projects": [
     {
-      "tag": ["Nuxt", "Vue", "Prisma", "PostgreSQL", "PWA", "Typescript", "HTML", "CSS", "UX/UI", "Git", "Figma", "TailwindCSS", "Plannification"],
+      "tag": ["Nuxt", "Vue", "Prisma", "PostgreSQL", "PWA", "TypeScript", "HTML", "CSS", "UX/UI", "Git", "Figma", "TailwindCSS", "Plannification"],
       "name": "Project Jukebox",
       "createDate": "28/01/2026",
       "description": "Développement d’une application web PWA dédiée à la gestion et à l’organisation d’une collection de vinyles. L’objectif du projet est de permettre aux passionnés de musique de cataloguer facilement leurs disques, de suivre leur collection et de gérer une wishlist de vinyles à acquérir. L’application intègre un système de scan de code-barres permettant d’ajouter rapidement un vinyle à sa bibliothèque, en récupérant automatiquement les informations associées à l’album. Les utilisateurs peuvent consulter leur collection, ajouter des notes personnelles, organiser leurs disques et suivre les albums recherchés. Le projet a été développé avec Nuxt et Vue pour le front-end, Prisma et MySQL pour la gestion des données, ainsi que Docker pour l’environnement de développement et de déploiement. Une attention particulière a été portée à l’expérience utilisateur, à la performance et à l’ergonomie mobile afin de proposer une Progressive Web App fluide, pratique et accessible sur tous les appareils.",
@@ -47,7 +47,7 @@
       "slug": "petcare"
     },
     {
-      "tag": ["Vue", "JavaScript", "Laravel", "PHP", "HTML", "CSS", "Design System", "UX/UI", "SaaS", "FinTech", "Git"],
+      "tag": ["Vue", "JavaScript", "TypeScript", "Laravel", "PHP", "HTML", "CSS", "Design System", "UX/UI", "SaaS", "FinTech", "Git"],
       "name": "Karbonalpha",
       "createDate": "01/11/2025",
       "description": "Développement front-end d’une plateforme SaaS FinTech pour Karbonalpha, dédiée aux professionnels de la gestion patrimoniale. Cette réalisation a consisté à concevoir et intégrer des interfaces web modernes et performantes afin de faciliter l’accès aux outils d’analyse financière et de gestion de données. Le projet a inclus la création de composants UI réutilisables, l’optimisation du design system et l’amélioration de l’expérience utilisateur (UX) pour garantir une navigation fluide et intuitive. Une attention particulière a été portée à la performance front-end, à la cohérence visuelle et à la maintenabilité du code, afin de proposer une interface fiable, évolutive et adaptée aux exigences d’une plateforme SaaS dans le secteur de la FinTech.",
@@ -175,7 +175,7 @@
         "Angular",
         "NodeJs",
         "Express",
-        "Typescript",
+        "TypeScript",
         "Docker",
         "Bootstrap",
         "HTML",
@@ -215,7 +215,7 @@
       "slug": "knowledge-learning"
     },
     {
-      "tag": ["Angular", "Typescript", "HTML", "SCSS", "Bootstrap", "MailHog", "NodeJs", "Git"],
+      "tag": ["Angular", "TypeScript", "HTML", "SCSS", "Bootstrap", "MailHog", "NodeJs", "Git"],
       "name": "Trouve ton Artisan",
       "createDate": "18/09/2024",
       "description": "Trouve ton Artisan est un annuaire en ligne conçu pour aider les utilisateurs à trouver des artisans qualifiés dans divers domaines. Ce site s'intègre facilement dans un environnement digital existant, offrant une interface conviviale et intuitive pour la recherche et la mise en relation avec des professionnels. Développé dans le cadre d'une formation au CEF (Centre Européen de Formation) sous Angular, ce projet met en avant l'utilisation de technologies modernes pour créer une plateforme efficace et performante. Les utilisateurs peuvent rechercher des artisans par spécialité, consulter leurs profils détaillés, et les contacter directement via le site. Cette application vise à simplifier le processus de recherche d'artisans et à fournir une solution fiable et accessible pour tous les besoins en services artisanaux.",
@@ -315,7 +315,7 @@
       "slug": "site-e-commerce-symfony"
     },
     {
-      "tag": ["Angular", "Typescript", "HTML", "Bootstrap", "Git"],
+      "tag": ["Angular", "TypeScript", "HTML", "Bootstrap", "Git"],
       "name": "Au petit village",
       "createDate": "29/08/2024",
       "description": "Le projet consistait à développer la partie front-end d'un site e-commerce dédié à la vente de figurines. L'objectif était de créer une interface utilisateur attrayante et intuitive permettant aux clients de parcourir facilement les produits disponibles. Le site inclut des fonctionnalités de filtrage avancées pour aider les utilisateurs à trouver rapidement les figurines qu'ils recherchent, en fonction de critères tels que la catégorie, le prix, et la disponibilité. Ce projet m'a permis de renforcer mes compétences en développement front-end, en utilisant des technologies modernes pour offrir une expérience utilisateur fluide et agréable.",
