@@ -1,11 +1,11 @@
 <script lang="ts" setup>
-import { ref } from 'vue'
-import { Form, Field } from 'vee-validate'
-import * as yup from 'yup'
+// import { ref } from 'vue'
+// import { Form, Field } from 'vee-validate'
+// import * as yup from 'yup'
 
-const isSubmitting = ref(false)
+// const isSubmitting = ref(false)
 
-const schema = yup.object({
+/* const schema = yup.object({
   name: yup
     .string()
     .required('Le nom est requis.')
@@ -22,9 +22,9 @@ const schema = yup.object({
     .string()
     .required('Le message est requis.')
     .min(10, 'Le message doit comporter au moins 10 caractères.'),
-})
+}) */
 
-const data = ref({
+/* const data = ref({
   service_id: 'service_iaromaw',
   template_id: 'template_jhvks4r',
   user_id: 'uwTGqWk7A9XbDFeUR',
@@ -33,9 +33,9 @@ const data = ref({
     email: '',
     message: '',
   },
-})
+}) */
 
-const onSubmit = (values: any) => {
+/* const onSubmit = (values: any) => {
   isSubmitting.value = true
   setTimeout(async () => {
     console.log(values)
@@ -65,9 +65,9 @@ const onSubmit = (values: any) => {
       console.error(error)
     }
   }, 2000)
-}
+} */
 
-const showToast = (message: string, type: 'success' | 'error') => {
+/* const showToast = (message: string, type: 'success' | 'error') => {
   const toast = document.getElementById('toast')
   if (toast) {
     toast.textContent = message
@@ -76,7 +76,7 @@ const showToast = (message: string, type: 'success' | 'error') => {
       toast.className = toast.className.replace('show', '')
     }, 3000)
   }
-}
+} */
 </script>
 
 <template>
@@ -84,10 +84,13 @@ const showToast = (message: string, type: 'success' | 'error') => {
     <h3>Travaillons ensemble !</h3>
     <p class="contact__sous-titre">
       Vous avez un projet en tête ou souhaitez collaborer avec moi ? N'hésitez pas à me contacter !
-      Je suis toujours à la recherche de nouvelles opportunités et de défis passionnants. Remplissez
-      le formulaire ci-dessous et je vous répondrai dans les plus brefs délais.
+      Je suis toujours à la recherche de nouvelles opportunités et de défis passionnants. <!--Remplissez
+      le formulaire ci-dessous et je vous répondrai dans les plus brefs délais. -->Vous pouvez également
+      me contacter directement par email ou téléphone, sur les réseaux sociaux ou encore sur le site de
+      <a class="contact__sous-titre--link" href="https://torefi.fr/" target="_blank">Torefi</a>.
+      J'ai hâte de discuter de votre projet et de voir comment nous pouvons travailler ensemble pour le concrétiser !
     </p>
-    <div class="form-container">
+    <!--<div class="form-container">
       <Form :validation-schema="schema" @submit="onSubmit" v-slot="{ errors }" id="contact-form">
         <div class="form-fields">
           <div class="form-field">
@@ -122,7 +125,10 @@ const showToast = (message: string, type: 'success' | 'error') => {
     </div>
     <div id="toast" class="toast">
       Merci pour votre message. Je vous répondrai le plus tôt possible.
-    </div>
+    </div>-->
+    <a href="https://torefi.fr/#contact" target="_blank">
+      <button>Me contacter via Torefi</button>
+    </a>
   </section>
 </template>
 
@@ -137,6 +143,10 @@ h3 {
 
 .contact__sous-titre {
   padding-bottom: 1rem;
+}
+
+.contact__sous-titre--link {
+  text-decoration: underline;
 }
 
 .form-container {
