@@ -5,15 +5,15 @@
   import { annees } from '@/data/schools.json';
   import { experiences } from '@/data/experiences.json';
 
-  const filter = ref('parcours');
+  const filter = ref('experiences');
 </script>
 
 <template>
   <section class="past">
     <h3>Mon parcours et mes expériences</h3>
     <ul class="filter">
-      <li @click="filter='parcours'" :class="[filter==='parcours' ? 'active' : '', 'filter__item']">Parcours</li>
       <li @click="filter='experiences'" :class="[filter==='experiences' ? 'active' : '', 'filter__item']">Expériences</li>
+      <li @click="filter='parcours'" :class="[filter==='parcours' ? 'active' : '', 'filter__item']">Parcours</li>
     </ul>
 
     <h3 class="past__title-3">{{ filter==='parcours'?'Parcours scolaire':'Expériences professionnelles'}}</h3>

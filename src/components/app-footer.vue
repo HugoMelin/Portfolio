@@ -43,7 +43,7 @@ const getImageUrl = (name: string) => {
       </div>
     </div>
     <div class="footer__copyright">
-      <p>Dernières modifications :<time datetime="2025-22-08">Août 2025</time></p>
+      <p>Dernières modifications :<time datetime="2025-10-09">Septembre 2025</time></p>
       <p class="copyright">{{ copyright }}</p>
     </div>
   </footer>

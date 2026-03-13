@@ -1,8 +1,29 @@
 {
   "experiences": [
     {
-      "name": "Pertuis Digital",
+      "name": "Toréfi - Développeur Full Stack Freelance",
       "date": "Sept 2024 - Présent",
+      "title": "Freelance",
+      "comment": [
+        "Création d’une agence spécialisée dans la conception de sites vitrine, e-commerce et applications web & mobiles sur-mesure.",
+        "Réalisation d’applications web avec Vue3, Nuxt, Strapi et Medusa.",
+        "Développement et mise en production de sites e-commerce avec WordPress & WooCommerce (optimisation performance & sécurité).",
+        "Gestion complète de projets : recueil des besoins, conception UX/UI, développement, hébergement, maintenance et relation client."
+      ]
+    },
+    {
+      "name": "SEMAT",
+      "date": "Avr 2025 - Août 2025",
+      "title": "Développeur Web (Stagiaire)",
+      "comment": [
+        "Conception de workflows de validation via Power Platform.",
+        "Refonte de l’intranet et de la GED pour améliorer la communication interservices.",
+        "Développement d’une application de gestion des contrats (création, suivi, archivage)."
+      ]
+    },
+    {
+      "name": "Pertuis Digital",
+      "date": "Sept 2024 - Juin 2025",
       "title": "Création d'une micro agence web",
       "comment": [
         "Création de maquettes et prototypes interactifs.",
