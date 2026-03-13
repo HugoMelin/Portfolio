@@ -10,7 +10,7 @@
 
 <template>
   <section class="past">
-    <h3>Mon parcours et mes expériences</h3>
+    <h3>Mes expériences et mon parcours</h3>
     <ul class="filter">
       <li @click="filter='experiences'" :class="[filter==='experiences' ? 'active' : '', 'filter__item']">Expériences</li>
       <li @click="filter='parcours'" :class="[filter==='parcours' ? 'active' : '', 'filter__item']">Parcours</li>
