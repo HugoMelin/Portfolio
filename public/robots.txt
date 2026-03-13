@@ -1,0 +1,6 @@
+User-agent: *
+Allow: /
+
+# Static files worth keeping crawlable.
+Allow: /favicon.png
+Allow: /CV_Hugo_Melin_2025.pdf
