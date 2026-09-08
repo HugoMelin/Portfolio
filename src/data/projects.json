@@ -1,10 +1,41 @@
 {
   "projects": [
     {
-      "tag": ["Nuxt", "Vue", "Prisma", "PostgreSQL", "PWA", "TypeScript", "HTML", "CSS", "UX/UI", "Git", "Figma", "TailwindCSS", "Plannification"],
+      "tag": ["Vue.js", "Strapi", "TypeScript", "HTML", "CSS", "UX/UI", "Git", "Figma", "TailwindCSS", "Prisma", "MySQL", "Docker"],
+      "name": "Atelier Horizon",
+      "createDate": "01/08/2026",
+      "description": "Développement d’un site vitrine de démonstration pour Atelier Horizon, un atelier fictif imaginé afin de mettre en pratique la conception et le développement d’une expérience web moderne. L’ensemble des contenus, informations, réalisations et données présentés sur le site sont fictifs et ont été créés uniquement dans le cadre de cette démonstration. L’objectif du projet est de proposer une vitrine professionnelle mettant en valeur l’univers et le savoir-faire d’un atelier à travers une interface élégante, immersive et soignée. Une attention particulière a été portée à la direction artistique, aux animations, à la mise en page et à la fluidité de la navigation afin d’offrir une expérience utilisateur convaincante. Le site a également été pensé selon une approche responsive pour garantir une consultation optimale sur ordinateur, tablette et mobile, tout en accordant une importance particulière aux performances, à l’ergonomie et à l’accessibilité.",
+      "excerpt": "Site vitrine de démonstration pour un atelier fictif, réalisé avec des données factices afin de présenter une expérience web moderne, immersive et responsive.",
+      "image": [
+        {
+          "src": "atelier-horizon-page-1.png",
+          "alt": "Page d'accueil du site Atelier Horizon"
+        },
+        {
+          "src": "atelier-horizon-page-2.png",
+          "alt": "Page à propos du site Atelier Horizon"
+        },
+        {
+          "src": "atelier-horizon-page-3.png",
+          "alt": "Page offres du site Atelier Horizon"
+        },
+        {
+          "src": "atelier-horizon-page-4.png",
+          "alt": "Page méthodologie du site Atelier Horizon"
+        },
+        {
+          "src": "atelier-horizon-page-5.png",
+          "alt": "Page de contact du site Atelier Horizon"
+        }
+      ],
+      "link": "https://atelier-horizon.torefi.fr/",
+      "slug": "atelier-horizon"
+    },
+    {
+      "tag": ["Nuxt", "Vue.js", "Prisma", "PostgreSQL", "PWA", "TypeScript", "HTML", "CSS", "UX/UI", "Git", "Figma", "TailwindCSS", "Plannification"],
       "name": "Project Jukebox",
       "createDate": "28/01/2026",
-      "description": "Développement d’une application web PWA dédiée à la gestion et à l’organisation d’une collection de vinyles. L’objectif du projet est de permettre aux passionnés de musique de cataloguer facilement leurs disques, de suivre leur collection et de gérer une wishlist de vinyles à acquérir. L’application intègre un système de scan de code-barres permettant d’ajouter rapidement un vinyle à sa bibliothèque, en récupérant automatiquement les informations associées à l’album. Les utilisateurs peuvent consulter leur collection, ajouter des notes personnelles, organiser leurs disques et suivre les albums recherchés. Le projet a été développé avec Nuxt et Vue pour le front-end, Prisma et MySQL pour la gestion des données, ainsi que Docker pour l’environnement de développement et de déploiement. Une attention particulière a été portée à l’expérience utilisateur, à la performance et à l’ergonomie mobile afin de proposer une Progressive Web App fluide, pratique et accessible sur tous les appareils.",
+      "description": "Développement d’une application web PWA dédiée à la gestion et à l’organisation d’une collection de vinyles. L’objectif du projet est de permettre aux passionnés de musique de cataloguer facilement leurs disques, de suivre leur collection et de gérer une wishlist de vinyles à acquérir. L’application intègre un système de scan de code-barres permettant d’ajouter rapidement un vinyle à sa bibliothèque, en récupérant automatiquement les informations associées à l’album. Les utilisateurs peuvent consulter leur collection, ajouter des notes personnelles, organiser leurs disques et suivre les albums recherchés. Le projet a été développé avec Nuxt et Vue.js pour le front-end, Prisma et MySQL pour la gestion des données, ainsi que Docker pour l’environnement de développement et de déploiement. Une attention particulière a été portée à l’expérience utilisateur, à la performance et à l’ergonomie mobile afin de proposer une Progressive Web App fluide, pratique et accessible sur tous les appareils.",
       "excerpt": "Application web PWA permettant de gérer une collection de vinyles, scanner des codes-barres et suivre une wishlist d’albums.",
       "image": [
         {
@@ -24,11 +55,11 @@
       "slug": "project-jukebox"
     },
     {
-      "tag": ["Nuxt", "Vue", "Prisma", "MySQL", "Docker", "PWA", "JavaScript", "HTML", "CSS", "UX/UI", "Git", "Figma", "TailwindCSS", "Plannification"],
+      "tag": ["Nuxt", "Vue.js", "Prisma", "MySQL", "Docker", "PWA", "JavaScript", "HTML", "CSS", "UX/UI", "Git", "Figma", "TailwindCSS", "Plannification"],
       "name": "PetCare",
       "createDate": "01/12/2025",
-      "description": "Développement d’une application web PWA dédiée à la gestion et au suivi de la santé des animaux de compagnie. Le projet a été pensé pour offrir aux propriétaires d’animaux une expérience utilisateur intuitive, complète et accessible sur tous les supports. L’application permet de centraliser les informations essentielles liées à la santé de l’animal, comme le suivi médical, les rendez-vous, les traitements ou encore les rappels importants. Réalisée avec Nuxt et Vue pour le front-end, Prisma et MySQL pour la gestion des données, ainsi que Docker pour l’environnement de développement et de déploiement, cette application a été conçue pour être performante, évolutive et maintenable. Une attention particulière a été portée à l’ergonomie, à la fiabilité des données et à l’expérience mobile afin de proposer une solution pratique et moderne sous forme de Progressive Web App.",
-      "excerpt": "Application web PWA de suivi de santé pour animaux de compagnie, développée avec Nuxt, Vue, Prisma et MySQL pour offrir une expérience intuitive et complète.",
+      "description": "Développement d’une application web PWA dédiée à la gestion et au suivi de la santé des animaux de compagnie. Le projet a été pensé pour offrir aux propriétaires d’animaux une expérience utilisateur intuitive, complète et accessible sur tous les supports. L’application permet de centraliser les informations essentielles liées à la santé de l’animal, comme le suivi médical, les rendez-vous, les traitements ou encore les rappels importants. Réalisée avec Nuxt et Vue.js pour le front-end, Prisma et MySQL pour la gestion des données, ainsi que Docker pour l’environnement de développement et de déploiement, cette application a été conçue pour être performante, évolutive et maintenable. Une attention particulière a été portée à l’ergonomie, à la fiabilité des données et à l’expérience mobile afin de proposer une solution pratique et moderne sous forme de Progressive Web App.",
+      "excerpt": "Application web PWA de suivi de santé pour animaux de compagnie, développée avec Nuxt, Vue.js, Prisma et MySQL pour offrir une expérience intuitive et complète.",
       "image": [
         {
           "src": "petcare-1.png",
@@ -47,7 +78,7 @@
       "slug": "petcare"
     },
     {
-      "tag": ["Vue", "JavaScript", "TypeScript", "Laravel", "PHP", "HTML", "CSS", "Design System", "UX/UI", "SaaS", "FinTech", "Git"],
+      "tag": ["Vue.js", "JavaScript", "TypeScript", "Laravel", "PHP", "HTML", "CSS", "Design System", "UX/UI", "SaaS", "FinTech", "Git"],
       "name": "Karbonalpha",
       "createDate": "01/11/2025",
       "description": "Développement front-end d’une plateforme SaaS FinTech pour Karbonalpha, dédiée aux professionnels de la gestion patrimoniale. Cette réalisation a consisté à concevoir et intégrer des interfaces web modernes et performantes afin de faciliter l’accès aux outils d’analyse financière et de gestion de données. Le projet a inclus la création de composants UI réutilisables, l’optimisation du design system et l’amélioration de l’expérience utilisateur (UX) pour garantir une navigation fluide et intuitive. Une attention particulière a été portée à la performance front-end, à la cohérence visuelle et à la maintenabilité du code, afin de proposer une interface fiable, évolutive et adaptée aux exigences d’une plateforme SaaS dans le secteur de la FinTech.",
@@ -74,11 +105,11 @@
       "slug": "karbonalpha"
     },
     {
-      "tag": ["Vue", "Strapi", "Figma", "Docker", "HTML", "TailwindCSS", "Plannification", "UX/UI", "Git"],
+      "tag": ["Vue.js", "Strapi", "Figma", "Docker", "HTML", "TailwindCSS", "Plannification", "UX/UI", "Git"],
       "name": "Toréfi",
       "createDate": "06/07/2025",
-      "description": "Création du site internet de mon agence web en utilisant Vue 3 pour le frontend et Strapi pour le backend. Le projet met en avant une architecture moderne et performante, permettant une gestion de contenu flexible et une expérience utilisateur fluide. L’objectif était de concevoir une vitrine professionnelle et évolutive, tout en mettant en valeur l’expertise technique de l’agence.",
-      "excerpt": "Site vitrine d’agence web développé avec Vue 3 & Strapi, combinant performance, flexibilité et design moderne.",
+      "description": "Création du site internet de mon agence web en utilisant Vue.js 3 pour le frontend et Strapi pour le backend. Le projet met en avant une architecture moderne et performante, permettant une gestion de contenu flexible et une expérience utilisateur fluide. L’objectif était de concevoir une vitrine professionnelle et évolutive, tout en mettant en valeur l’expertise technique de l’agence.",
+      "excerpt": "Site vitrine d’agence web développé avec Vue.js 3 & Strapi, combinant performance, flexibilité et design moderne.",
       "image": [
         {
           "src": "torefi-1.png",
